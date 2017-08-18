@@ -20,6 +20,8 @@
 		8D72E63B1F466F5F003BC7D8 /* Section.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D72E63A1F466F5F003BC7D8 /* Section.m */; };
 		8D72E63E1F466F86003BC7D8 /* YAxis.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D72E63D1F466F86003BC7D8 /* YAxis.m */; };
 		8D72E6401F46712A003BC7D8 /* data.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8D72E63F1F46712A003BC7D8 /* data.txt */; };
+		8D72E6471F467494003BC7D8 /* YJFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D72E6441F467494003BC7D8 /* YJFPSLabel.m */; };
+		8D72E6481F467494003BC7D8 /* YJFPSMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D72E6461F467494003BC7D8 /* YJFPSMonitor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +49,10 @@
 		8D72E63C1F466F86003BC7D8 /* YAxis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAxis.h; sourceTree = "<group>"; };
 		8D72E63D1F466F86003BC7D8 /* YAxis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAxis.m; sourceTree = "<group>"; };
 		8D72E63F1F46712A003BC7D8 /* data.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data.txt; sourceTree = "<group>"; };
+		8D72E6431F467494003BC7D8 /* YJFPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJFPSLabel.h; sourceTree = "<group>"; };
+		8D72E6441F467494003BC7D8 /* YJFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJFPSLabel.m; sourceTree = "<group>"; };
+		8D72E6451F467494003BC7D8 /* YJFPSMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJFPSMonitor.h; sourceTree = "<group>"; };
+		8D72E6461F467494003BC7D8 /* YJFPSMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJFPSMonitor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +95,7 @@
 				8D72E6171F466CC3003BC7D8 /* Assets.xcassets */,
 				8D72E6191F466CC3003BC7D8 /* LaunchScreen.storyboard */,
 				8D72E61C1F466CC3003BC7D8 /* Info.plist */,
+				8D72E6411F467485003BC7D8 /* Vender */,
 				8D72E60B1F466CC3003BC7D8 /* Supporting Files */,
 			);
 			path = YJFenshiChart;
@@ -128,6 +135,25 @@
 				8D72E63D1F466F86003BC7D8 /* YAxis.m */,
 			);
 			path = YJFenshiLine;
+			sourceTree = "<group>";
+		};
+		8D72E6411F467485003BC7D8 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				8D72E6421F467494003BC7D8 /* YJFPSLabel */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		8D72E6421F467494003BC7D8 /* YJFPSLabel */ = {
+			isa = PBXGroup;
+			children = (
+				8D72E6431F467494003BC7D8 /* YJFPSLabel.h */,
+				8D72E6441F467494003BC7D8 /* YJFPSLabel.m */,
+				8D72E6451F467494003BC7D8 /* YJFPSMonitor.h */,
+				8D72E6461F467494003BC7D8 /* YJFPSMonitor.m */,
+			);
+			path = YJFPSLabel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,11 +229,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D72E6481F467494003BC7D8 /* YJFPSMonitor.m in Sources */,
 				8D72E6131F466CC3003BC7D8 /* ViewController.m in Sources */,
 				8D72E63B1F466F5F003BC7D8 /* Section.m in Sources */,
 				8D72E6311F466EA5003BC7D8 /* EverColumnModel.m in Sources */,
 				8D72E63E1F466F86003BC7D8 /* YAxis.m in Sources */,
 				8D72E6101F466CC3003BC7D8 /* AppDelegate.m in Sources */,
+				8D72E6471F467494003BC7D8 /* YJFPSLabel.m in Sources */,
 				8D72E6281F466D93003BC7D8 /* ChartModel.m in Sources */,
 				8D72E6341F466ED7003BC7D8 /* EverLineModel.m in Sources */,
 				8D72E62E1F466E64003BC7D8 /* EverChart.m in Sources */,
@@ -374,6 +402,7 @@
 				8D72E6211F466CC3003BC7D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

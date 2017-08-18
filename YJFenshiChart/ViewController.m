@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "EverChart.h"
+#import "YJFPSLabel.h"
 
 @interface ViewController ()
 
@@ -20,7 +21,20 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
+    self.view.backgroundColor = [UIColor whiteColor];
+    
     [self configFinshiLine];
+    
+    //FPS帧率检测
+    [self configFPSLabel];
+}
+
+- (void)configFPSLabel{
+
+    YJFPSLabel *label = [[YJFPSLabel alloc]initWithFrame:CGRectMake([UIScreen mainScreen].bounds.size.width - 80, 0, 50, 20)];
+    label.layer.zPosition = 1000;
+    [self.fenshiChart addSubview:label];
+    [label start];
 }
 
 - (void)configFinshiLine{
@@ -43,7 +57,6 @@
     id responseObject = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableLeaves error:nil];
     
     [self renderChart:responseObject];
-
 }
 
 
@@ -179,8 +192,6 @@
     [self.fenshiChart setNeedsDisplay];
     
 }
-
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
