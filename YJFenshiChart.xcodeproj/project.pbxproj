@@ -13,6 +13,13 @@
 		8D72E6161F466CC3003BC7D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D72E6141F466CC3003BC7D8 /* Main.storyboard */; };
 		8D72E6181F466CC3003BC7D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D72E6171F466CC3003BC7D8 /* Assets.xcassets */; };
 		8D72E61B1F466CC3003BC7D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D72E6191F466CC3003BC7D8 /* LaunchScreen.storyboard */; };
+		8D72E6281F466D93003BC7D8 /* ChartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D72E6271F466D93003BC7D8 /* ChartModel.m */; };
+		8D72E62E1F466E64003BC7D8 /* EverChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D72E62D1F466E64003BC7D8 /* EverChart.m */; };
+		8D72E6311F466EA5003BC7D8 /* EverColumnModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D72E6301F466EA5003BC7D8 /* EverColumnModel.m */; };
+		8D72E6341F466ED7003BC7D8 /* EverLineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D72E6331F466ED7003BC7D8 /* EverLineModel.m */; };
+		8D72E63B1F466F5F003BC7D8 /* Section.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D72E63A1F466F5F003BC7D8 /* Section.m */; };
+		8D72E63E1F466F86003BC7D8 /* YAxis.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D72E63D1F466F86003BC7D8 /* YAxis.m */; };
+		8D72E6401F46712A003BC7D8 /* data.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8D72E63F1F46712A003BC7D8 /* data.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,20 @@
 		8D72E6171F466CC3003BC7D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D72E61A1F466CC3003BC7D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D72E61C1F466CC3003BC7D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D72E6261F466D93003BC7D8 /* ChartModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartModel.h; sourceTree = "<group>"; };
+		8D72E6271F466D93003BC7D8 /* ChartModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartModel.m; sourceTree = "<group>"; };
+		8D72E62C1F466E64003BC7D8 /* EverChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EverChart.h; sourceTree = "<group>"; };
+		8D72E62D1F466E64003BC7D8 /* EverChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EverChart.m; sourceTree = "<group>"; };
+		8D72E62F1F466EA5003BC7D8 /* EverColumnModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EverColumnModel.h; sourceTree = "<group>"; };
+		8D72E6301F466EA5003BC7D8 /* EverColumnModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EverColumnModel.m; sourceTree = "<group>"; };
+		8D72E6321F466ED7003BC7D8 /* EverLineModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EverLineModel.h; sourceTree = "<group>"; };
+		8D72E6331F466ED7003BC7D8 /* EverLineModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EverLineModel.m; sourceTree = "<group>"; };
+		8D72E6381F466F36003BC7D8 /* EverMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EverMacro.h; sourceTree = "<group>"; };
+		8D72E6391F466F5F003BC7D8 /* Section.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Section.h; sourceTree = "<group>"; };
+		8D72E63A1F466F5F003BC7D8 /* Section.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Section.m; sourceTree = "<group>"; };
+		8D72E63C1F466F86003BC7D8 /* YAxis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAxis.h; sourceTree = "<group>"; };
+		8D72E63D1F466F86003BC7D8 /* YAxis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAxis.m; sourceTree = "<group>"; };
+		8D72E63F1F46712A003BC7D8 /* data.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +79,8 @@
 		8D72E60A1F466CC3003BC7D8 /* YJFenshiChart */ = {
 			isa = PBXGroup;
 			children = (
+				8D72E6221F466CFA003BC7D8 /* DataFiles */,
+				8D72E6251F466D53003BC7D8 /* YJFenshiLine */,
 				8D72E60E1F466CC3003BC7D8 /* AppDelegate.h */,
 				8D72E60F1F466CC3003BC7D8 /* AppDelegate.m */,
 				8D72E6111F466CC3003BC7D8 /* ViewController.h */,
@@ -77,6 +100,34 @@
 				8D72E60C1F466CC3003BC7D8 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8D72E6221F466CFA003BC7D8 /* DataFiles */ = {
+			isa = PBXGroup;
+			children = (
+				8D72E63F1F46712A003BC7D8 /* data.txt */,
+			);
+			path = DataFiles;
+			sourceTree = "<group>";
+		};
+		8D72E6251F466D53003BC7D8 /* YJFenshiLine */ = {
+			isa = PBXGroup;
+			children = (
+				8D72E6381F466F36003BC7D8 /* EverMacro.h */,
+				8D72E6261F466D93003BC7D8 /* ChartModel.h */,
+				8D72E6271F466D93003BC7D8 /* ChartModel.m */,
+				8D72E62C1F466E64003BC7D8 /* EverChart.h */,
+				8D72E62D1F466E64003BC7D8 /* EverChart.m */,
+				8D72E62F1F466EA5003BC7D8 /* EverColumnModel.h */,
+				8D72E6301F466EA5003BC7D8 /* EverColumnModel.m */,
+				8D72E6321F466ED7003BC7D8 /* EverLineModel.h */,
+				8D72E6331F466ED7003BC7D8 /* EverLineModel.m */,
+				8D72E6391F466F5F003BC7D8 /* Section.h */,
+				8D72E63A1F466F5F003BC7D8 /* Section.m */,
+				8D72E63C1F466F86003BC7D8 /* YAxis.h */,
+				8D72E63D1F466F86003BC7D8 /* YAxis.m */,
+			);
+			path = YJFenshiLine;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +189,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D72E6401F46712A003BC7D8 /* data.txt in Resources */,
 				8D72E61B1F466CC3003BC7D8 /* LaunchScreen.storyboard in Resources */,
 				8D72E6181F466CC3003BC7D8 /* Assets.xcassets in Resources */,
 				8D72E6161F466CC3003BC7D8 /* Main.storyboard in Resources */,
@@ -152,7 +204,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D72E6131F466CC3003BC7D8 /* ViewController.m in Sources */,
+				8D72E63B1F466F5F003BC7D8 /* Section.m in Sources */,
+				8D72E6311F466EA5003BC7D8 /* EverColumnModel.m in Sources */,
+				8D72E63E1F466F86003BC7D8 /* YAxis.m in Sources */,
 				8D72E6101F466CC3003BC7D8 /* AppDelegate.m in Sources */,
+				8D72E6281F466D93003BC7D8 /* ChartModel.m in Sources */,
+				8D72E6341F466ED7003BC7D8 /* EverLineModel.m in Sources */,
+				8D72E62E1F466E64003BC7D8 /* EverChart.m in Sources */,
 				8D72E60D1F466CC3003BC7D8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +335,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = PHUF2ASV3Q;
 				INFOPLIST_FILE = YJFenshiChart/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = liuyingjieyeah.YJFenshiChart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -289,6 +348,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = PHUF2ASV3Q;
 				INFOPLIST_FILE = YJFenshiChart/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = liuyingjieyeah.YJFenshiChart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
